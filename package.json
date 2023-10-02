@@ -1,0 +1,36 @@
+{
+  "name": "vite-plugin-custom-domain",
+  "version": "1.0.0",
+  "description": "Allows you to use a custom domain name when developing locally. It does this by modifying your /etc/hosts file",
+  "main": "index.js",
+  "type": "module",
+  "types": "./index.d.ts",
+  "homepage": "https://github.com/lubiah/vite-plugin-custom-domain",
+  "files": [
+    "./index.js",
+    "./index.d.ts",
+    "./readme.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/lubiah/vite-plugin-custom-domain/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:lubiah/vite-plugin-custom-domain"    
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["vite", "plugin", "vite plugin","custom domain", "/etc/hosts","vite plugin custom domain"],
+  "author": {
+    "url": "https://lubiah.com",
+    "name": "Lucretius Biah"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "hostparty": "^1.0.15"
+  }
+}
