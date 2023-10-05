@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-custom-domain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows you to use a custom domain name when developing locally. It does this by modifying your /etc/hosts file",
   "main": "index.js",
   "type": "module",
