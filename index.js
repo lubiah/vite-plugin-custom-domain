@@ -10,7 +10,7 @@ const plugin = (data = {}) => {
         name: "custom-domain",
         enforce: "pre",
         apply: "serve",
-        options: async (options) => {
+        buildStart: async (options) => {
             if (!Object.keys(data).length) return options;
             for (const key in data) {
                 console.log(`adding ${data[key].join(",")} to ip ${key}`);
